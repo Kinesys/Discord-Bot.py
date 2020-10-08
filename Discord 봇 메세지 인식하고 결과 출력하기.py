@@ -19,7 +19,7 @@ async def on_message(message): #메세지를 보낸 사람이 봇일 경우애�
 
 if message.author.bot:
     return None
-if message.content.startswith("안녕")
+if message.content.startswith("안녕"):
 
 channel = message.channel
     await channel.send("반가워")
